@@ -1,5 +1,5 @@
 zerops:
-  - setup: nextsnodejs
+  - setup: nextnodejs
     build:
       base: nodejs@18
       buildCommands:
