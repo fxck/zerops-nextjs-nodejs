@@ -1,0 +1,10 @@
+zerops:
+  - setup: nextsnodejs
+    build:
+      base: nodejs@18
+      buildCommands:
+        - npm i
+        - npm run build
+      deploy: ./
+    run:
+      start: npm start
