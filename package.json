@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "npx prettier . --write"
   },
   "dependencies": {
     "next": "14.1.4",
+    "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18"
   },
