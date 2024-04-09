@@ -4,23 +4,8 @@ const yamlcode = `project:
   name: zerops-nextjs
 
 services:
-  - hostname: nextstatic
-    type: nginx@1.22
-    nginxConfig: |-
-      server {
-          listen 80 default_server;
-          listen [::]:80 default_server;
-
-          server_name _;
-          root /var/www/out;
-
-          location / {
-              try_files $uri $uri/ /index.html;
-          }
-
-          access_log syslog:server=unix:/dev/log,facility=local1 default_short;
-          error_log syslog:server=unix:/dev/log,facility=local1;
-      }
+  - hostname: nextnodejs
+    type: nodejs@18
     buildFromGit: https://github.com/fxck/zerops-next-nodejs
     enableSubdomainAccess: true
     minContainers: 1`.trim();

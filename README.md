@@ -1,6 +1,6 @@
 # Zerops + Nextjs - Nodejs
 
-[Header Image](public/ZeropsNextjs.png)
+![Header Image](public/ZeropsNextjs.png)
 
 A Nodejs Next.js example for Zerops that you can deploy in 2 steps on zerops.
 
