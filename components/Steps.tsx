@@ -26,7 +26,7 @@ export function Steps() {
           </video>
         </div>
         <p className="font-medium text-lg mt-3">
-          Click on Import Project button on the sidebar.
+          Open menu, click Import Project.
         </p>
       </div>
       <div>
