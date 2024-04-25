@@ -20,13 +20,11 @@ export function Steps() {
         <h2 className="text-[#292929] text-2xl font-semibold">
           Step 1: Go To Zerops Dashboard{" "}
         </h2>
-        <img
-          className="rounded-lg my-6"
-          alt="zerops dashboard"
-          src="dashboard.webp"
-          width={845}
-          draggable={false}
-        />
+        <div>
+          <video width="full" className="rounded-xl mt-4" autoPlay loop>
+            <source src="import.mp4" type="video/mp4" />
+          </video>
+        </div>
         <p className="font-medium text-lg mt-3">
           Click on Import Project button on the sidebar.
         </p>
