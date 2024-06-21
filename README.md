@@ -12,7 +12,7 @@ A Nodejs Next.js example for Zerops
 
 ```yaml
 project:
-  name: zerops-nextjs
+  name: recipe-nextjs
 
 services:
   - hostname: app
