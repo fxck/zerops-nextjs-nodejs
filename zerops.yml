@@ -1,10 +1,14 @@
 zerops:
-  - setup: nextnodejs
+  - setup: app
     build:
-      base: nodejs@18
+      base: nodejs@20
       buildCommands:
         - npm i
         - npm run build
       deploy: ./
     run:
+      base: nodejs@20
+      ports:
+        - port: 3000
+          httpSupport: true    
       start: npm start
