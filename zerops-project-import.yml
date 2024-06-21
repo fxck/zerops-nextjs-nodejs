@@ -4,5 +4,5 @@ project:
 services:
   - hostname: app
     type: nodejs@20
-    buildFromGit: https://github.com/fxck/next-example-with-stage
+    buildFromGit: https://github.com/fxck/zerops-nextjs-nodejs
     enableSubdomainAccess: true
