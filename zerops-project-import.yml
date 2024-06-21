@@ -2,7 +2,13 @@ project:
   name: recipe-nextjs
 
 services:
-  - hostname: app
-    type: nodejs@18
-    buildFromGit: https://github.com/fxck/zerops-nextjs-nodejs
+  - hostname: prod
+    type: nodejs@20
+    buildFromGit: https://github.com/fxck/next-example-with-stage
+    enableSubdomainAccess: true
+
+services:
+  - hostname: stage
+    type: nodejs@20
+    buildFromGit: https://github.com/fxck/next-example-with-stage
     enableSubdomainAccess: true

@@ -1,5 +1,5 @@
 zerops:
-  - setup: app
+  - setup: prod
     build:
       base: nodejs@20
       buildCommands:
@@ -10,5 +10,8 @@ zerops:
       base: nodejs@20
       ports:
         - port: 3000
-          httpSupport: true    
+          httpSupport: true
       start: npm start
+
+  - setup: stage
+    extends: prod
