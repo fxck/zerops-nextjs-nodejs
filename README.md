@@ -2,7 +2,7 @@
 
 ![Header Image](public/ZeropsNextjs.png)
 
-A Nodejs Next.js example for Zerops
+A Node.js Next.js example for Zerops
 
 **Features**
 
