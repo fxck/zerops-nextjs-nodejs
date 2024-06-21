@@ -16,7 +16,7 @@ project:
 
 services:
   - hostname: app
-    type: nodejs@18
+    type: nodejs@20
     buildFromGit: https://github.com/fxck/zerops-nextjs-nodejs
     enableSubdomainAccess: true
 ```
